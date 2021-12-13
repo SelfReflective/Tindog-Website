@@ -1,0 +1,217 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/* Headings */
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+/* Sections below */
+
+.colored-section {
+    background-color: #ff4c66;
+}
+
+.white-section {
+    background-color: #ffffff;
+}
+
+/* Title */
+
+#title {
+    
+    color: white;
+    text-align: left;
+    /* Using this in title to get the same color for subheadings */
+}
+
+#title .container-fluid { /* More specifity indication -> .container-fluid INSIDE #title - then change the padding */
+    padding: 3% 7% 15%;
+}
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.title-img-div {
+    position: relative;
+}
+
+.title-img {
+    padding-left: 2rem;
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    /* To make the img float off the natural flow of the website, that makes the containing grid container smaller. Meaning the features section goes up a tiny bit. */
+    right: 30%;
+}
+
+/* Navbar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Feature Section */
+
+#features {
+
+    
+    position: relative;
+}
+
+.img-fluid {
+    color: #ef8172;
+    padding-bottom: 20px;
+}
+
+.img-fluid:hover {
+    color: #ff4c68;
+}
+
+.features-p {
+    color: #8f8f8f;
+}
+
+.feature-box {
+    padding: 5%;
+    /* Add Padding to make the text more compact if its too spaced out. */
+}
+
+.features-text {
+    font-size: 1.5rem;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    color: #ffffff;
+    background-color: #ef8172;
+}
+
+.testimonial-img {
+    margin: 20px;
+    width: 10%;
+    border-radius: 100%;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Press Section */
+
+#press {
+    background-color: #ef8172;
+
+    padding-bottom: 3%;
+}
+
+.press-img {
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+/* Pricing section */
+
+#pricing {
+    padding: 100px;
+
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+.pricing-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-text-h3 {
+    font-size: 1.5rem;
+}
+
+.pricing-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Media Querys */
+
+@media (max-width: 992px) {
+    #title {
+        text-align: center;
+
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* CTA & Footer */
+
+#cta {
+    background-color: #ff4c68;
+    color: #ffffff;
+
+    padding-bottom: 100px;
+}
+
+.cta-h3 {
+    padding: 100px;
+    font-size: 3.5rem;
+}
+
+.cta-btn-div {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#footer {
+    background-color: #fff;
+    color: #8f8f8f;
+
+    padding: 100px 100px 50px;
+}
+
+.socialmedia-img {
+    color: #111111;
+    padding: 0 10px 20px;
+}
